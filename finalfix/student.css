@@ -1,0 +1,54 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand img {
+    width: 130px;
+    height: 100px;
+}
+
+.nav-link,
+.nav-link:hover {
+    color: white;
+}
+
+.navbar-text {
+    color: white !important;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.content {
+    margin: 20px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(2, 2, 2, 2);
+}
+
+.update-password {
+    margin: 20px;
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.btn-update-password {
+    background-color: #FF0000;
+    color: #FFFFFF;
+}

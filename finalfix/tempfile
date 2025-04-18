@@ -1,0 +1,142 @@
+            <style>
+                /* Custom styles for the carousel */
+                .carousel-inner {
+                    margin: 0px;
+                    /* Remove default margin */
+                    /*padding: 400px;
+    /*padding-top:20px; /* Remove default padding */
+                }
+
+                /* 
+            </style>
+
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 15;
+                    padding: 15;
+                }
+
+                .section-container {
+                    display: flex;
+                }
+
+                .section {
+                    flex: 1;
+                    text-align: center;
+                    cursor: pointer;
+                    padding: 30px;
+                    background-color: #f0f0f0;
+                    transition: background-color 0.3s;
+                }
+
+                .section:hover {
+                    background-color: white;
+                }
+
+                .menu {
+                    display: none;
+                    justify-content: center;
+                    position: center;
+                    background-color: #f9f9f9;
+                    border: 2px solid #ddd;
+                    z-index: 1;
+                    padding: 0px 620px;
+
+                }
+
+                .menu ul {
+                    list-style-type: none;
+                    padding: 0;
+                }
+
+                .menu li {
+                    padding: 10px;
+                    cursor: pointer;
+                }
+
+                .submenu {
+                    display: none;
+                    position: right;
+                    top: 0;
+                    left: 100%;
+                    background-color: #f9f9f9;
+                    border: 1px solid #ddd;
+                    z-index: 2;
+                    padding-right: -20px;
+                }
+
+                .submenu ul {
+                    list-style-type: none;
+                    padding: 0px 0px;
+                }
+
+                .submenu li {
+                    padding: 10px;
+                    cursor: pointer;
+                }
+            </style>
+
+            <style>
+                .content {
+                    padding: 20px;
+                }
+
+                .rounded-border {
+                    border: 2px solid #555;
+                    /* Border color */
+                    border-radius: 10px;
+                    /* Controls the roundness of the corners */
+                    padding: 10px;
+                    /* Optional padding to create some space around the content */
+                    background-color: rgba(0, 0, 255, 0.2);
+                    /* Transparent blue background color */
+                }
+            </style>
+
+
+<div class="carousel-indicators" bis_skin_checked="1">
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="" aria-label="Slide 0"></button>
+<button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 1" class=""></button>
+<button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 2" class=""></button>
+<button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 3" class="active" aria-current="true"></button>
+<button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4" aria-label="Slide 4" class=""></button>
+<button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="5" aria-label="Slide 5" class=""></button>
+</div>
+
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+        <!-- Your indicators buttons here -->
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <!-- Slide content for the first slide -->
+            <img class="d-block w-100" src="image/1.journey.jpg" alt="..." style="width: 500px; height: 500px;">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="image/2.enroll.jpg" alt="..." style="width: 500px; height: 500px;">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="image/3.book.jpg" alt="..." style="width: 500px; height: 500px;">
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+

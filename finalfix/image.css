@@ -1,0 +1,25 @@
+.imagecarosel{
+    width: 80%; 
+    height: 500px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+    outline: rgb(2, 0, 0);
+    background-color: rgba(56, 231, 231, 0.432);
+    background-size: 100%, 100%;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+#cname {
+    font-size: 60px;
+    font-family: 'Bree Serif', serif;
+    color: #2bcafa;
+}
+
+
+#hlog{
+    color:rgb(43, 202, 250) ;
+}

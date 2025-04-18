@@ -1,0 +1,45 @@
+/* Add this CSS to your sidebaradmin.php file */
+body{
+    background-image: linear-gradient(white, rgba(0, 255, 255, 0.301));
+}
+.card {
+    margin-bottom: 20px;
+}
+
+/* Add this CSS to your main HTML file */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.table tr {
+    background-color: #66cddb69;
+}
+
+.table tr:hover {
+    background-color: #17cfe79a;
+}
+
+#edt {
+    background-color: green;
+    width: 70px;
+}
+#rmv{
+    background-color: red;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
